@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inputs types</title>
+  </head>
+  <body>
+    <form action="" method="get">
+      <!-- <input type="color" /> -->
+      <h3>What are your interests?</h3>
+      <div>
+        <label for="games">Games</label>
+        <input
+          type="checkbox"
+          name="interest"
+          id="games
+"
+        />
+      </div>
+      <div>
+        <label for="books">Books</label>
+        <input type="checkbox" name="interest" id="books" />
+      </div>
+      <div>
+        <label for="study">Study</label>
+        <input type="checkbox" name="interest" id="study" />
+      </div>
+
+      <label for="Volume">Volume</label>
+      <input
+        type="range"
+        name="marks"
+        id="marks"
+        step="10"
+        min="10"
+        max="100"
+        value="20"
+      />
+      <br />
+
+      <label for="some-file">do you want to upload a file</label>
+      <input type="file" name="aadhar-card" id="some-file" />
+      <br />
+
+      <label for="date">please enter the dob</label>
+      <input type="date" name="date" id="date" />
+
+      <div>
+        <h3>Enter your class name:</h3>
+        <label for="class1">1st</label>
+        <input type="radio" name="class" id="class1" />
+
+        <label for="class2">2nd</label>
+        <input type="radio" name="class" id="class2" />
+
+        <label for="class3">3rd</label>
+        <input type="radio" name="class" id="class3" />
+      </div>
+    </form>
+  </body>
+</html>
